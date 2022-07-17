@@ -1,4 +1,8 @@
-
+button {
+  border-bottom-color: black;
+  color: white;
+  background-color: grey;
+}
 
 body {
   font-family: Roboto, sans-serif;
@@ -15,11 +19,12 @@ a {
   text-decoration:none;
   margin-bottom: 1.2em;
   position: relative;
+  color: black;
 }
 
   /* Что делать при наведении на ссылку */
 a:hover {
-  color: red;
+  color: silver;
 }
 
   /* Этим свойством добавляем подчеркивание через создание псевдокласса */
@@ -34,12 +39,14 @@ a::after {
 }
 
 h1 {
-  font-size: 2em;
+  font-size:2.5em;
+  color: darkblue;
 }
 
 h2 {
   font-size: 1.5em;
   margin: 1.25em 0;
+  color: darkblue;
 }
 
   /* Свойства фотографии*/
@@ -54,5 +61,5 @@ h2 {
 
   /* Эффект наведения на картинку */
 .photo:hover {
-  border: 3px solid red;
+  border: 3px solid silver;
 }
